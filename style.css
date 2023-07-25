@@ -1,0 +1,108 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+main {
+    width: 415px;
+    background: #000000;
+    margin: 0 auto;
+    padding: 19px 24px 12px 20px;
+}
+
+section.dado,
+section.entregador {
+    margin-top: 19px;
+    padding: 18px;
+    width: 371px;
+    height: 97px;
+    border-radius: 15px;
+    background: #FFF;
+    display: flex;
+}
+
+input {
+    text-align: center;
+}
+
+div {
+    color: #070707;
+    display: flex;
+    flex-direction: row;
+}
+
+.km {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#km-inicial,
+#km-final {
+    width: 81px;
+    height: 27px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+#entrega,
+#ganho {
+    width: 61px;
+    height: 44px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#ganho {
+    width: 109px;
+    height: 43px;
+    font-size: 15px;
+
+}
+
+.kmp {
+    margin-left: 45px;
+}
+
+img {
+    padding-right: 15px;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 371px;
+    height: 35px;
+    border-radius: 45px;
+    background: #FA0404;
+}
+
+.resultado {
+    margin-top: 9px;
+    border-radius: 15px;
+    background: #EB9F9F;
+    width: 371px;
+    height: 214px;
+    padding: 12px 15px 20px 24px;
+}
+
+.resultado-final {
+    background: #FAECEC;
+    width: 332px;
+    height: 39px;
+    margin-bottom: 9px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin: 7px 10px;
+}

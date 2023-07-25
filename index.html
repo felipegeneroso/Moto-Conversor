@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Moto Caculadora</title>
+</head>
+
+<body>
+    <main>
+        <section class="dado">
+            <div class="label-km">
+                <div>
+                    <img src="./assets/rota.png" alt="rota">
+                </div>
+                <div class="km">
+                    <p class="kmp"> KM Inicial</p>
+                    <input id="km-inicial" placeholder="1500">
+                </div>
+                <div class="km">
+                    <p class="kmp"> KM Final</p>
+                    <input id="km-final" placeholder="2000">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="entregador">
+            <div class="label-km">
+                <div>
+                    <img src="./assets/entrega.png" alt="moto=entrega">
+                </div>
+                <div class="km">
+                    Quant.
+                    Entrega
+                    <input id="entrega" placeholder="15">
+                </div>
+                <div>
+                    <img src="./assets/dinheiro.png" alt="mao-com-dinheiro">
+                </div>
+                <div class="km">
+                    R$ Reais
+                    <input id="ganho" placeholder="R$ 2000,00">
+                </div>
+            </div>
+        </section>
+        <button class="calculate-button">Calcular</button>
+
+        <section class="resultado">
+            <div class="resultado-final">
+                <p>Total KM</p>
+                <p>0</p>
+            </div>
+            <div class="resultado-final">
+                <p id="total">Total R$</p>
+                <p id="total-1">R$ 0</p>
+            </div>
+            <div class="resultado-final">
+                <p>R$ por KM</p=>
+                <p>R$ 0</p>
+            </div>
+            <div class="resultado-final">
+                <p>R$ por entrega</p>
+                <p>R$ 0</p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
