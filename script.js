@@ -18,7 +18,7 @@ function calculateValues(){
     const ganhoTotalPorEntrega = ganhoValue / entregaValue //variavel calculo de R$ por entrega
 
 
-    kmTotalFinalValue.innerHTML = kmTotal
+    kmTotalFinalValue.innerHTML = kmTotal.toFixed(2)
     ganhoTotal.innerHTML = ganhoValue
     kmPorEntrega.innerHTML = ganhoPorKM
     porEntregaValue.innerHTML = ganhoTotalPorEntrega
